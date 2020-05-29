@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           UTS Accordions
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Suggestions for the accordion styles
+@author         Andrew Macpherson
+==/UserStyle== */
+
+@-moz-document domain("www.uts.edu.au"), domain("staging.uts.edu.au"), domain("dev.uts.edu.au") {
+
+    /* Make chevron stick to the top */
+	.collapsible__title::after {
+		width:1rem;
+		height: 1em;
+		top: 1.5em;
+	}
+
+	/* Improve padding */
+	.collapsible__content {
+		padding:0 0 0 3rem;
+	}
+
+}

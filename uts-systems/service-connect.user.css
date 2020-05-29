@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name           UTS Service Connect
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Improvements to UTS Service Connect
+@author         Andrew Macpherson
+==/UserStyle== */
+
+@-moz-document domain("uts.service-now.com") {
+
+	.sn-stream-input-decorator {
+		left: 1px;
+		border-bottom-left-radius: 2px;
+		border-top-left-radius: 2px;
+		margin-bottom: -4px;
+		margin-top: -4px;
+		width: 5px;
+	}
+
+	#activity-stream-comments-textarea,
+	#activity-stream-work_notes-textarea {
+		padding-left: 15px;
+	}
+
+}

@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name           UTS Fonts
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Makes the UTS Fonts available for other systems
+@author         Andrew Macpherson
+==/UserStyle== */
+
+@-moz-document {
+
+	@font-face {
+		font-family: 'NB International';
+		src: url("https://www.uts.edu.au/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_regular-webfont.woff2") format("woff2"), url("/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_regular-webfont.woff") format("woff");
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: 'NB International';
+		src: url("https://www.uts.edu.au/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_bold-webfont.woff2") format("woff2"), url("/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_bold-webfont.woff") format("woff");
+		font-weight: bold;
+	}
+	@font-face {
+		font-family: 'NB International Pro';
+		src: url("https://www.uts.edu.au/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_regular-webfont.woff2") format("woff2"), url("/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_regular-webfont.woff") format("woff");
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: 'NB International Pro';
+		src: url("https://www.uts.edu.au/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_bold-webfont.woff2") format("woff2"), url("/themes/uts_theme/src/vendor/neubauberlin/nb_international_pro_bold-webfont.woff") format("woff");
+		font-weight: bold;
+	}
+	@font-face {
+		font-family: 'NB Akademie Std';
+		src: url("https://www.uts.edu.au/themes/uts_theme/src/vendor/neubauberlin/nb_akademie_std_regular-webfont.woff2") format("woff2"), url("/themes/uts_theme/src/vendor/neubauberlin/nb_akademie_std_regular-webfont.woff") format("woff");
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: 'NB Akademie Std';
+		src: url("https://www.uts.edu.au/themes/uts_theme/src/vendor/neubauberlin/nb_akademie_std_bold-webfont.woff2") format("woff2"), url("/themes/uts_theme/src/vendor/neubauberlin/nb_akademie_std_bold-webfont.woff") format("woff");
+		font-weight: bold;
+	}
+
+}

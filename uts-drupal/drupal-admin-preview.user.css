@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name           UTS Drupal Admin Preview
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Gets rid of admin elements to allow decent screenshots
+@author         Andrew Macpherson
+==/UserStyle== */
+
+@-moz-document domain("www.uts.edu.au"), domain("staging.uts.edu.au"), domain("dev.uts.edu.au") {
+
+	#block-uts-theme-tabs,
+	#toolbar-administration,
+	.block-local-tasks-block {
+		display: none;
+		visibility: hidden;
+	}
+
+	body {
+		padding-top: 0 !important;
+	}
+
+	.logo::after {
+		content: "Editor preview";
+		margin-left: -130px;
+		top: 24px;
+		position: relative;
+		background-color: yellow;
+		padding: 0 1rem;
+	}
+
+}

@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name           UTS Page Check
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Shows how HTML elements are being used
+@author         Andrew Macpherson
+==/UserStyle== */
+
+@-moz-document domain("www.uts.edu.au"), domain("staging.uts.edu.au"), domain("dev.uts.edu.au") {
+
+	/* WORKAROUND DISPLAY BUGS */
+
+	div#toolbar-item-administration-tray {
+		position: fixed;
+	}
+
+	/* CHECK HEADING HIERARCHY */
+
+	h2, h3, h4, p {
+		position: relative;
+	}
+
+	h2::before,
+	h3::before,
+	h4::before {
+		content: "<??>";
+		display: block;
+		position: absolute;
+		font-size: 1rem;
+		font-weight: bold;
+		width: 3rem;
+		left: -4em;
+		padding: 0 3px;
+		background-color: black;
+		color: white;
+		text-align: center;
+		text-transform: none;
+	}
+
+	h2::before {
+		content: "<h2>";
+		background-color: red;
+	}
+
+	h3::before {
+		content: "<h3>";
+		background-color: blue;
+	}
+
+	h4::before {
+		content: "<h4>";
+		background-color: green;
+	}
+
+	/* CHECK GENERAL TAGS */
+	
+	
+	
+	/* CHECK EMPTY TAGS */
+
+	:empty {
+		background-color: yellow;
+	}
+	
+	a[href=""] {
+		background-color: pink;
+	}
+	
+	/* MISCELLANEOUS */
+	
+	.flex-tile__item {
+		overflow: visible;
+	}
+
+}

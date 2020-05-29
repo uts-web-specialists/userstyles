@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           UTS Staff Module
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Improvements to UTS Staff Module
+@author         Andrew Macpherson
+==/UserStyle== */
+
+@-moz-document domain("staff-module.uts.edu.au") {
+
+	#content thead {
+		position: sticky;
+		top: 0;
+		background: white;
+	}
+
+}
