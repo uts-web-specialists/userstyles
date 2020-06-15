@@ -10,6 +10,10 @@
 domain("staging.uts.edu.au"),
 domain("dev.uts.edu.au") {
 
+	:root {
+		--article-content-width: 825px;
+	}
+
 	/* leave room for SiteImprove widget */
 	main.page-content {
 		padding-right: 40px;
@@ -36,9 +40,11 @@ domain("dev.uts.edu.au") {
 		width: 825px !important;
 	}
 
-	/* set wyswiwyg height */
-	#cke_1_contents {
-		height: 50vh !important;
+	/* set body height for wysiwyg/js-code */
+	#edit-body-wrapper .cke_contents,
+	#edit-body-wrapper .js-text-full {
+		height: 250px;
+		min-height: 50vh !important;
 	}
 
 }
