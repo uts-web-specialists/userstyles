@@ -43,8 +43,8 @@ domain("dev.uts.edu.au") {
 	/* set body height for wysiwyg/js-code */
 	#edit-body-wrapper .cke_contents,
 	#edit-body-wrapper .js-text-full {
-		height: 250px;
-		min-height: 50vh !important;
+		min-height: 250px;
+		height: 50vh !important;
 	}
 
 }
