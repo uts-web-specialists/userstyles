@@ -47,6 +47,11 @@ domain("dev.uts.edu.au") {
 		height: 50vh !important;
 	}
 
+	/* change offset of sticky-nav, because of admin toolbar */
+	.sticky-nav {
+		top: 78px;
+	}
+
 }
 
 @-moz-document url-prefix("https://www.uts.edu.au/admin/content") {
