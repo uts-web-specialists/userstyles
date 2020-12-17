@@ -29,16 +29,17 @@ domain("dev.uts.edu.au") {
 		text-transform: uppercase;
 	}
 
+	/* REMOVED FOR NOW: causing problems accessing the buttons */ 
 	/* remove space between tabs and content */
-	#block-uts-theme-tabs {
+	/* #block-uts-theme-tabs {
 		margin: auto;
 		position: relative;
 		z-index: 998;
 	}
-
-	body.toolbar-fixed .toolbar-oriented .toolbar-bar {
+ */
+	/* body.toolbar-fixed .toolbar-oriented .toolbar-bar {
 		z-index: 999;
-	}
+	} */
 
 	/* set wyswiwyg to desktop content width */
 	iframe.cke_wysiwyg_frame {
