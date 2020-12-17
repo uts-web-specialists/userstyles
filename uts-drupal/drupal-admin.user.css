@@ -33,7 +33,10 @@ domain("dev.uts.edu.au") {
 	#block-uts-theme-tabs {
 		margin: auto;
 		position: relative;
-		z-index: 999;
+	}
+
+	body.toolbar-fixed .toolbar-oriented .toolbar-bar {
+		z-index: 9999;
 	}
 
 	/* set wyswiwyg to desktop content width */
