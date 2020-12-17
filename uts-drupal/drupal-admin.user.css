@@ -29,10 +29,11 @@ domain("dev.uts.edu.au") {
 		text-transform: uppercase;
 	}
 
-	/* can't remember what I put this one in for */
+	/* remove space between tabs and content */
 	#block-uts-theme-tabs {
 		margin: auto;
-		z-index: -1;
+		position: relative;
+		z-index: 999;
 	}
 
 	/* set wyswiwyg to desktop content width */
