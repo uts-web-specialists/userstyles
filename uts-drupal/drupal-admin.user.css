@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UTS Drupal Admin
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A few tweaks to improve the Drupal admin screens
 @author         Andrew Macpherson
 ==/UserStyle== */
@@ -33,10 +33,11 @@ domain("dev.uts.edu.au") {
 	#block-uts-theme-tabs {
 		margin: auto;
 		position: relative;
+		z-index: 998;
 	}
 
 	body.toolbar-fixed .toolbar-oriented .toolbar-bar {
-		z-index: 9999;
+		z-index: 999;
 	}
 
 	/* set wyswiwyg to desktop content width */
