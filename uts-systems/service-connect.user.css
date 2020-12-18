@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UTS Service Connect
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    Improvements to UTS Service Connect
 @author         Andrew Macpherson
 ==/UserStyle== */
@@ -20,6 +20,7 @@
 	#activity-stream-comments-textarea,
 	#activity-stream-work_notes-textarea {
 		padding-left: 15px;
+		padding-top: 4px;
 	}
 
 }
