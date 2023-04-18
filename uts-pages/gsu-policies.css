@@ -1,0 +1,61 @@
+/* ==UserStyle==
+@name           www.uts.edu.au - 19/04/2023, 2:10:20 am
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.uts.edu.au/about/uts-governance/policies/uts-policy/academic-freedom-and-freedom-expression-policy") {
+
+	main {
+		counter-reset: section;
+	}
+
+	h2 {
+		counter-reset: rule;
+	}
+
+	h2::before {
+		counter-increment: section;
+		content: "Section " counter(section);
+		display: block;
+		color: gray;
+		font-size: 0.7em;
+		text-transform: inherit;
+	}
+	p, ul {
+		list-style-type: none;
+		margin-left: 3rem;
+		text-indent: -3rem;
+		position: relative;
+	}
+
+	p {
+		counter-increment: rule;
+	}
+
+	p::before, li::before {
+		display: block;
+		width: 3rem;
+		float: left;
+		color: gray;
+	}
+
+	p::before {
+		content: counter(section) "." counter(rule) " ";
+	}
+
+	ul {
+		counter-reset: subrule;
+	}
+
+	li {
+		counter-increment: subrule;
+	}
+
+	li::before {
+		content: counter(section) "." counter(rule) "." counter(subrule) " ";
+	}
+
+}
