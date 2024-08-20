@@ -1,3 +1,18 @@
 {
+  "eablokker.tabsSidebar.config.collapsedFolders" : [
+
+  ],
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "css",
+    "json",
+    "plaintext"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "file:\/\/\/Users\/andrew\/Repositories\/userstyles\/uts-pages\/gsu-policies.css",
+    "file:\/\/\/Users\/andrew\/Repositories\/userstyles\/uts-site\/uts-fonts.user.css",
+    "file:\/\/\/Users\/andrew\/Repositories\/userstyles\/revenge.css\/revenge.css",
+    "file:\/\/\/Users\/andrew\/Repositories\/userstyles\/.nova\/Configuration.json",
+    "file:\/\/\/Users\/andrew\/Repositories\/userstyles\/revenge.css\/.gitignore"
+  ],
   "workspace.name" : "UTS UserStyles"
 }
