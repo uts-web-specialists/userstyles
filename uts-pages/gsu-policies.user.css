@@ -6,6 +6,9 @@
 @author         Andrew Macpherson
 ==/UserStyle== */
 
+/* these styles need to be made more specific, so they apply only to the policy text */
+/* consider wrapping policy in <div> or <section>, etc */
+
 @-moz-document url-prefix("https://www.uts.edu.au/about/uts-governance/policies/uts-policy/academic-freedom-and-freedom-expression-policy") {
 
 	main {
